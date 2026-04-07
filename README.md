@@ -1,2 +1,2 @@
 # world-building-app
-An app for world builders to make dynamic worlds that players can explore in pieces.
+Create an interactive and dynamic world for players to explore! Store information about important regions, factions, and characters in your world and let visitors discover it all by clicking through maps and relationship webs that attach a sense of reality and place to your world. Hide information behind secret codes that you can give to your visitors to unlock even more mysteries concealed beneath the surface.
