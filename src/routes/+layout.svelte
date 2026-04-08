@@ -14,7 +14,7 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<nav class="flex gap-1">
+<nav class="flex justify-center gap-1">
 	<a class="border border-black p-1" href={path_home} aria-label="home">home</a>
 	<a class="border border-black p-1" href={path_map} aria-label="map">map</a>
 	<a class="border border-black p-1" href={path_datasheet} aria-label="datasheet">datasheet</a>
