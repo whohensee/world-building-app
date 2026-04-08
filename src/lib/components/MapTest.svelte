@@ -5,6 +5,7 @@
 		const mainImage = document.querySelector<HTMLImageElement>('#mainImage');
 		const mainSVG = document.querySelector<SVGSVGElement>('#mainSVG');
 		if (mainImage) {
+			console.log('OnMount Fired');
 			console.log(`${mainImage.height}`);
 			mainSVG?.setAttribute('height', String(mainImage.height));
 		}
