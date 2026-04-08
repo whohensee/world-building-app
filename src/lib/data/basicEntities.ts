@@ -19,21 +19,12 @@
 // 	}
 // ];
 
+import type { entity } from '$lib/types';
+
 interface thing {
 	name: string;
 	location: string;
 	faction: string;
-	description: string;
-}
-
-type category = string;
-type ID = number;
-
-interface entity {
-	ID: ID;
-	category: category;
-	relatedTo: ID[];
-	name: string;
 	description: string;
 }
 

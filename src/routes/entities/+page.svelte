@@ -1,7 +1,8 @@
 <script lang="ts">
 	import EntityDisplay from '$lib/components/EntityDisplay.svelte';
-	import { entities } from '$lib/data/basicEntities';
+	import { officialEntities } from '$lib/data/basicEntities';
 
+	const entities = officialEntities;
 	let current_index = $state(0);
 	let total_shown = $state(0);
 	function next_index() {
@@ -25,13 +26,13 @@
 		 the button is spammed N-1 times or less, where N is the number of total
 		 conditionals here. -->
 		{#if total_shown % 4 == 0}
-			<EntityDisplay entity={entities[current_index]} />
+			<EntityDisplay entity={entities[current_index]} arr={entities} />
 		{:else if total_shown % 4 == 1}
-			<EntityDisplay entity={entities[current_index]} />
+			<EntityDisplay entity={entities[current_index]} arr={entities} />
 		{:else if total_shown % 4 == 2}
-			<EntityDisplay entity={entities[current_index]} />
+			<EntityDisplay entity={entities[current_index]} arr={entities} />
 		{:else if total_shown % 4 == 3}
-			<EntityDisplay entity={entities[current_index]} />
+			<EntityDisplay entity={entities[current_index]} arr={entities} />
 		{/if}
 	</div>
 </div>
