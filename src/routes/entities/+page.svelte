@@ -18,7 +18,7 @@
 	<h1>The entity browser page</h1>
 
 	<div
-		class="flex h-100 w-screen flex-col items-center border-t-16 border-b-16 border-taupe-600 bg-black font-terminal text-2xl text-green-700"
+		class="flex h-100 w-screen flex-col items-center overflow-x-hidden border-t-16 border-b-16 border-taupe-600 bg-black font-terminal text-2xl text-green-700"
 	>
 		<button class="border border-black p-1" onclick={next_index}>Next</button>
 		<!-- This little "trick" keeps svelte transitions from borking if
